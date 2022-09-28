@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Temperature Convertor</title>
+    <link rel="stylesheet" href="Temperature_convertor.css">
+</head>
+<body>
+          <h1 class="head1">Temperature convertor</h1>
+    <div id="Main">
+          <div class="head2">
+            <label >Celsius</label><br>
+              <input type="number" value="0" id="cel" class="inp">
+          </div>
+          <div class="head2">
+            <label>Fharanite</label><br>
+            <input type="number" value="32" id="fah" class="inp">
+          </div>
+    </div> 
+    <script>
+        var cel = document.getElementById("cel");
+        var fah = document.getElementById("fah");
+        cel.addEventListener('input',function(){
+         let c= this.value;
+         let f= (c * 1.8000) + 32.00;
+         fah.value=f;
+        });
+        fah.addEventListener('input',function(){
+           
+         let f= this.value;
+         let c=(f - 32) * 5/9;
+         cel.value=c;
+       });
+    
+    </script>  
+</body>
+</html>

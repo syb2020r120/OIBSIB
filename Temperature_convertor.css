@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: black;
+    padding: 50px 100px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+label{
+    color: white;   
+}
+#Main{
+    text-align: center;
+    padding: 50px;
+}
+
+.head2{
+    display:inline-block;
+}
+
+.inp
+{
+    padding:5px 10px;
+    margin:10px ;
+    font-size: 30px;
+    font-weight: bold;
+    width: 250px;
+    text-align: center;
+}
+
+label{
+    font-size: 22px;
+    
+}
